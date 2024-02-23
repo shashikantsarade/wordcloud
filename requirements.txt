@@ -3,3 +3,4 @@ wordcloud
 matplotlib
 streamlit
 numpy
+pillow
