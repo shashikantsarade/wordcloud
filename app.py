@@ -14,8 +14,6 @@ if uploaded_file is not None:
         text = ''
         for page in pdf.pages:
             text += page.extract_text()
-if text.strip() != '':
-    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
     # Rest of the code
 else:
     st.write("No text found in the PDF.")
